@@ -1,0 +1,5 @@
+name: hng_flask
+services:
+  - type: python
+    buildCommand: pip install -r requirements.txt
+    runCommand: python app.py
